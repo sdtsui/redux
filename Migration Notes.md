@@ -13,13 +13,16 @@ React Redux : Performant bindings
 ____________________
 ____________________
 ____________________
-Examples :
+Examples to review:
 ____________________
 ____________________
 ____________________
 
 *TODOs - how state updates work together with components in Redux
 *Todos with Undo - wrapping reducer with Redux Undo, for undo/redo functonality
+
+--- Breakpoint for PCP, normalized store not needed --- 
+
 *Shopping Cart: Idiomatic Redux patterns: important as app grows:
   - normalized store, by Id
   - compose reducers on several levels
