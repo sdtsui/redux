@@ -16,3 +16,17 @@ Replacing Flux:
 
 ExampleCreateStore Notes :
  Takeaways:
+  ** CreateStore can completely replace PCPViewStore ** 
+
+  ___________________
+  ___________________
+  ___________________
+  ___________________
+
+
+_____________________________________
+Examples:
+ Todos: 
+  - Provider store = createStore(reducers)
+  - reducers = combineReducers({todos, visibilityFilter}) , as todoApp
+  - tests start from actions and reducers

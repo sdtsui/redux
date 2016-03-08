@@ -10,6 +10,8 @@ React Redux : Performant bindings
   Screencast: 
   https://www.youtube.com/watch?v=VJ38wSFbM3A
 
+
+- Book Jacky's Lightning Talk < --- > Saturday OS.
 ____________________
 ____________________
 ____________________
@@ -21,19 +23,23 @@ ____________________
 *TODOs - how state updates work together with components in Redux
 *Todos with Undo - wrapping reducer with Redux Undo, for undo/redo functonality
 
---- Breakpoint for PCP, normalized store not needed --- 
 
 *Shopping Cart: Idiomatic Redux patterns: important as app grows:
   - normalized store, by Id
   - compose reducers on several levels
   - define selectors alongside reducers so knowledge about state shape is encapsulated
   - Middleware: Redux Logger, and Redux Thunk
-*Tree View: demos rendering a deeply nested tree view, representing state in normalized form so it is easier to update from reducers
-  - granular subscription of container components
+
+
 Async: with Redux Thunk
   - fetching data in response to user input
   - loading indicators
   - caching responses, invalidating cache
+
+--- Breakpoint for PCP, normalized store not needed, thunk needed --- 
+
+*Tree View: demos rendering a deeply nested tree view, representing state in normalized form so it is easier to update from reducers
+  - granular subscription of container components
 Universal : server rendering -- prepare state on server, boot from state on client
 http://redux.js.org/docs/recipes/ServerRendering.html
 Real World: 
