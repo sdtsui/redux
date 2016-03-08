@@ -34,7 +34,6 @@ class App extends Component {
     dispatch(invalidateReddit(selectedReddit))
     dispatch(fetchPostsIfNeeded(selectedReddit))
   }
-
   render() {
     const { selectedReddit, posts, isFetching, lastUpdated } = this.props
     const isEmpty = posts.length === 0

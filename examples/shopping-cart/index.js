@@ -17,6 +17,7 @@ const store = createStore(
   reducer,
   applyMiddleware(...middleware)
 )
+console.log("Store:", store);
 
 store.dispatch(getAllProducts())
 
