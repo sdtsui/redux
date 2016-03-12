@@ -7,6 +7,9 @@ graduate rewrite:
 
 Antipatterns to avoid:
   - fetching API in store
+  ** ** -- Trigger state change in Redux w/ Dispatch
+          - fetch is done with promise: (in example: isomorphic-fetch), state change triggered on dispatch
+        -- All state changes happen in reducers
   - triggering actions in stores
 
 Replacing Flux:
